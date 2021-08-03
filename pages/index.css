@@ -1,0 +1,212 @@
+@import url(../vendor/fonts/fonts.css);
+
+.page {
+  min-width: 850px;
+  font-family: "Inter", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}
+
+.header {
+  background-color: #2a2c2f;
+  padding-bottom: 50px;
+}
+
+.header__subtitle {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 12px;
+  color: #ffffff;
+  margin: 0 0 0 30px;
+  text-align: left;
+  padding-top: 30px;
+}
+
+.header__cross {
+  font-family: "Inter", sans-serif;
+  font-size: 200px;
+  vertical-align: middle;
+  margin: 0;
+  color: #ffffff;
+  text-align: center;
+  line-height: 200px;
+}
+
+.header__title {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+  margin: 50px 0 0;
+}
+
+.header__smiling {
+  font-family: "Inter", sans-serif;
+  font-size: 70px;
+  vertical-align: middle;
+}
+
+.coffin {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.coffin__link {
+  text-decoration-line: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  color: black;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.coffin-sector {
+  display: grid;
+  margin: 20px auto 0;
+  grid-template-columns: 1fr 1fr;
+}
+
+.coffin-sector__misha {
+  width: 180px;
+  object-fit: contain;
+  grid-column: 2;
+  grid-row: 1;
+  z-index: 1;
+  margin-top: 50px;
+  justify-self: center;
+}
+
+.coffin-sector__image-one {
+  width: 285px;
+  height: 505px;
+  z-index: 2;
+}
+
+.coffin-sector__image-two {
+  width: 285px;
+  height: 505px;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.coffin-sector__image_active {
+  transition-duration: 9999999s;
+}
+
+.coffin-sector__image_active:active {
+  transition-duration: 0s;
+  transform: translate(287px, 0);
+}
+
+.coffin__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  margin: 0 0 20px;
+  color: black;
+  text-align: center;
+  margin: 40px 0 0px;
+}
+
+.hobbies {
+  background-color: #2a2c2f;
+  padding: 50px 50px 0;
+}
+
+.hobbies__piramids {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.hobbies__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  margin: 0 0 20px;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+.hobbies__subtitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  margin: 0 0 20px;
+  color: white;
+  text-align: center;
+  margin: 20px 0 0px;
+}
+
+.hobbies__text {
+  max-width: 200px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  margin: 50px auto 20px;
+  color: white;
+  text-align: center;
+}
+
+.hobbies__image {
+  width: 100%;
+  object-fit: contain;
+}
+
+.photo-gallery {
+  padding-top: 100px;
+  background-color: #2a2c2f;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  padding: 30px 50px 0;
+}
+
+.grid__image {
+  width: 100%;
+}
+
+.grid__text {
+  max-width: 280px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  color: white;
+  text-align: center;
+}
+
+.footer {
+  padding: 50px 0 100px;
+  background-color: white;
+}
+
+.footer__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 70px;
+  color: black;
+  text-align: center;
+  margin: 50px 0 20px;
+}
